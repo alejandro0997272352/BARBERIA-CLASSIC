@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Classic Barber Shop | Estilo y Tradición</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/your-code.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+    <header>
+        <nav>
+            <div class="logo">THE BARBER</div>
+            <ul>
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#servicios">Servicios</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="inicio" class="hero">
+        <div class="hero-content">
+            <h1>Cortes de Autor</h1>
+            <p>Más que un corte, una experiencia de caballero.</p>
+            <button onclick="agendar()">Agendar Cita</button>
+        </div>
+    </section>
+
+    <section id="servicios">
+        <h2>Nuestros Servicios</h2>
+        <div class="servicios-container">
+            <div class="servicio-card">
+                <h3>Corte Clásico</h3>
+                <p>$15.00</p>
+            </div>
+            <div class="servicio-card">
+                <h3>Barba y Toalla Caliente</h3>
+                <p>$10.00</p>
+            </div>
+            <div class="servicio-card">
+                <h3>Combo Imperial</h3>
+                <p>$22.00</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contacto">
+        <h2>Reserva tu Espacio</h2>
+        <form id="contact-form">
+            <input type="text" placeholder="Nombre Completo" required>
+            <input type="email" placeholder="Correo Electrónico" required>
+            <select>
+                <option>Corte Clásico</option>
+                <option>Barba</option>
+                <option>Combo Imperial</option>
+            </select>
+            <button type="submit">Enviar Solicitud</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 The Barber Shop - Todos los derechos reservados.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
